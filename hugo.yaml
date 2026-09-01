@@ -1,6 +1,4 @@
-module:
-  module.hugoVersion:
-    extended: true
-    min: "0.147.8"
-  imports:
-    - path: github.com/writeonlycode/hugo-agency-web
+baseURL: 'https://slidingrollers.com/'
+languageCode: 'en-us'
+title: 'Sliding Rollers'
+theme: 'PaperMod'

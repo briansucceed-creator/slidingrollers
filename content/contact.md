@@ -8,6 +8,7 @@ layout: "simple"
 We provide OEM/ODM custom hardware manufacturing and export solutions.
 
 * **Email:** sales@slidingrollers.com
+* **Phone(WhatApp/Wechat):** +8618665432367
 * **Business Hours:** Mon - Sat (8:00 AM - 6:00 PM UTC+8)
 * **Factory Location:** China
 

@@ -1,27 +1,40 @@
 baseURL: 'https://www.slidingrollers.com/'
 languageCode: 'en-us'
-title: 'Professional Sliding Door Hardware & Rollers Manufacturer'
+title: 'Sliding Rollers | Professional Hardware Manufacturer'
 theme: 'PaperMod'
 
 params:
   env: production
-  description: "High-quality sliding door rollers, shower room hardware, and custom accessories for global B2B buyers."
-  showSocialMediaIcons: true
-  
-  # 首页 Profile 模式配置（极简大气的工厂主页风格）
-  homeInfoParams:
-    Title: "Sliding Hardware Solutions"
-    Content: "Professional manufacturer of premium sliding door rollers, glass door hardware, and industrial fittings."
-
-  # 导航栏菜单设置
-  menu:
-    main:
-      - name: "Products"
+  # 首页大 Banner 与简介模式
+  profileMode:
+    enabled: true
+    title: "Sliding Hardware Solutions"
+    subtitle: "Leading Manufacturer of Heavy-Duty Sliding Door Rollers, Shower Room Hardware & Custom Fittings."
+    imageUrl: "" # 后面上传工厂 Logo 或产品图填这里
+    imageWidth: 150
+    imageHeight: 150
+    buttons:
+      - name: "View Products"
         url: "/products/"
-        weight: 10
-      - name: "About Us"
-        url: "/about/"
-        weight: 20
-      - name: "Contact & Inquiry"
+      - name: "Contact Factory"
         url: "/contact/"
-        weight: 30
+
+  # 页脚与企业信息
+  description: "High-quality sliding door rollers and hardware fittings for B2B buyers."
+  showSocialMediaIcons: false
+
+# 顶部导航菜单
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 10
+    - name: "Products"
+      url: "/products/"
+      weight: 20
+    - name: "About Us"
+      url: "/about/"
+      weight: 30
+    - name: "Contact Us"
+      url: "/contact/"
+      weight: 40

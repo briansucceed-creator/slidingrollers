@@ -2,3 +2,5 @@ module:
   module.hugoVersion:
     extended: true
     min: "0.147.8"
+  imports:
+    - path: github.com/writeonlycode/hugo-agency-web

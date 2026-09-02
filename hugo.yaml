@@ -5,25 +5,10 @@ theme: 'PaperMod'
 
 params:
   env: production
-  # 首页大 Banner 与简介模式
+  # 关闭极简 Profile 模式，启用 content/_index.md 的 Rich Text 首页布局
   profileMode:
-    enabled: true
-    title: "Sliding Hardware Solutions"
-    subtitle: "Leading Manufacturer of Heavy-Duty Sliding Door Rollers, Shower Room Hardware & Custom Fittings."
-    imageUrl: "" # 后面上传工厂 Logo 或产品图填这里
-    imageWidth: 150
-    imageHeight: 150
-    buttons:
-      - name: "View Products"
-        url: "/products/"
-      - name: "Contact Factory"
-        url: "/contact/"
+    enabled: false
 
-  # 页脚与企业信息
-  description: "High-quality sliding door rollers and hardware fittings for B2B buyers."
-  showSocialMediaIcons: false
-
-# 顶部导航菜单
 menu:
   main:
     - name: "Home"

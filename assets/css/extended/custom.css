@@ -1,1 +1,29 @@
+/* 修改 PaperMod 全局最大宽度与内边距，实现宽屏效果 */
+:root {
+    --main-width: 1400px; /* 控制主体最大宽度，可改为 100% 实现极尽全屏 */
+    --nav-width: 1400px;  /* 导航栏最大宽度 */
+}
 
+/* 让首页大图和表格占满区域 */
+.main {
+    max-width: var(--main-width) !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.nav {
+    max-width: var(--nav-width) !important;
+}
+
+/* 增强图片与 Banner 展现效果 */
+.post-content img {
+    width: 100%;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+/* 优化表格在宽屏下的铺满展示 */
+.post-content table {
+    width: 100%;
+    display: table;
+}
